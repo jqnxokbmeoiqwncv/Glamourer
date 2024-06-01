@@ -18,6 +18,7 @@
     ],
     "InternalName": "Glamourer",
     "AssemblyVersion": "1.2.0.8",
+    "TestingAssemblyVersion": "1.2.2.2",
     "TestingAssemblyVersion": "1.2.0.8",
     "RepoUrl": "https://github.com/Ottermandias/Glamourer",
     "ApplicableVersion": "any",
