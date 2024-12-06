@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0-windows7.0": {
+      "DalamudPackager": {
+        "type": "Direct",
+        "requested": "[2.1.13, )",
+        "resolved": "2.1.13",
+        "contentHash": "rMN1omGe8536f4xLMvx9NwfvpAc9YFFfeXJ1t4P4PE6Gu8WCIoFliR1sh07hM+bfODmesk/dvMbji7vNI+B/pQ=="
+      },
+      "Vortice.Direct3D11": {
+        "type": "Direct",
+        "requested": "[3.4.2-beta, )",
+        "resolved": "3.4.2-beta",
+        "contentHash": "CWVMTF7ebylzzXbQXVp5C9UpBB/L+EpX2OxSdb2wlzcsdEmrev/Ith8wVs0WjZ6DbA0WiiybnYAWqB5v0nOO/A==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.1.2-beta",
+          "Vortice.DXGI": "3.4.2-beta"
+        }
+      },
+      "JetBrains.Annotations": {
+        "type": "Transitive",
+        "resolved": "2023.3.0",
+        "contentHash": "PHfnvdBUdGaTVG9bR/GEfxgTwWM0Z97Y6X3710wiljELBISipSfF5okn/vz+C2gfO+ihoEyVPjaJwn8ZalVukA=="
+      },
+      "Microsoft.Extensions.DependencyInjection": {
+        "type": "Transitive",
+        "resolved": "8.0.0",
+        "contentHash": "V8S3bsm50ig6JSyrbcJJ8bW2b9QLGouz+G1miK3UTaOWmMtFwNNNzUf4AleyDWUmTrWMLNnFSLEQtxmxgNQnNQ==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions": {
+        "type": "Transitive",
+        "resolved": "8.0.0",
+        "contentHash": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg=="
+      },
+      "SharpGen.Runtime": {
+        "type": "Transitive",
+        "resolved": "2.1.2-beta",
+        "contentHash": "nqZAjfEG1jX1ivvdZLsi6Pkt0DiOJyuOgRgldNFsmjXFPhxUbXQibofLSwuDZidL2kkmtTF8qLoRIeqeVdXgYw=="
+      },
+      "SharpGen.Runtime.COM": {
+        "type": "Transitive",
+        "resolved": "2.1.2-beta",
+        "contentHash": "HBCrb6HfnUWx9v5/GjJeBr5DuodZLnHlFQQYXPrQs1Hbe1c6Wd0uCXf+SJp4hW8fQNxjXEu0FgiyHGlA/SRzRw==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.1.2-beta"
+        }
+      },
+      "Vortice.DirectX": {
+        "type": "Transitive",
+        "resolved": "3.4.2-beta",
+        "contentHash": "EwDbemXkmEiDGZVDem25uiEcZBYOMb+wzePuta+M/k2LXrQVGPknZhZUK56+QlHhI+Ducf/d+J75wgBzEjKi2g==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.1.2-beta",
+          "SharpGen.Runtime.COM": "2.1.2-beta",
+          "Vortice.Mathematics": "1.7.6"
+        }
+      },
+      "Vortice.DXGI": {
+        "type": "Transitive",
+        "resolved": "3.4.2-beta",
+        "contentHash": "T4S3pp6l/SGJ6SH3ebCbodN/bimGOkIBiIYKeBpVEis7+/ac1XIjyzgSTJ5XsH3o3hSH7DqSbP6Yo6mL9nyFQA==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.1.2-beta",
+          "Vortice.DirectX": "3.4.2-beta"
+        }
+      },
+      "Vortice.Mathematics": {
+        "type": "Transitive",
+        "resolved": "1.7.6",
+        "contentHash": "W8FNv850lPGxmHphwLyi1qnUlQHZBxh/62EenFJTaY6acPP29Fk0xMQJI60G+YNlsVJb3fSoriuW+ong5sM5UQ=="
+      },
+      "glamourer.api": {
+        "type": "Project"
+      },
+      "ottergui": {
+        "type": "Project",
+        "dependencies": {
+          "JetBrains.Annotations": "[2023.3.0, )",
+          "Microsoft.Extensions.DependencyInjection": "[8.0.0, )"
+        }
+      },
+      "penumbra.api": {
+        "type": "Project"
+      },
+      "penumbra.gamedata": {
+        "type": "Project",
+        "dependencies": {
+          "OtterGui": "[1.0.0, )",
+          "Penumbra.Api": "[5.3.0, )",
+          "Penumbra.String": "[1.0.4, )"
+        }
+      },
+      "penumbra.string": {
+        "type": "Project"
+      }
+    }
+  }
+}
