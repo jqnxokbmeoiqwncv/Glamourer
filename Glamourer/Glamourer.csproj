@@ -5,8 +5,8 @@
     <PlatformTarget>x64</PlatformTarget>
     <RootNamespace>Glamourer</RootNamespace>
     <AssemblyName>Glamourer</AssemblyName>
-    <FileVersion>1.3.3.3</FileVersion>
-    <AssemblyVersion>1.3.3.3</AssemblyVersion>
+    <FileVersion>1.3.3.4</FileVersion>
+    <AssemblyVersion>1.3.3.4</AssemblyVersion>
     <Company>SoftOtter</Company>
     <Product>Glamourer</Product>
     <Copyright>Copyright © 2023</Copyright>
